@@ -10,7 +10,7 @@
     <a href="LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
     </a>
-    <a href="https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Living-with-machines/PressPicker_public/HEAD">
+    <a href="https://mybinder.org/v2/gh/Living-with-machines/PressPicker_public/HEAD">
         <img alt="Binder" src="https://mybinder.org/badge_logo.svg">
     </a>
     <br/>
