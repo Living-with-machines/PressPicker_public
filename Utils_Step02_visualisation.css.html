@@ -1,0 +1,134 @@
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<style>
+    .x_axis_wrapper {
+        background: white;
+        padding-top: 5px;
+        position: fixed;
+        top: 110px;
+    }
+
+    .mf_line {
+        fill: none;
+        stroke: rgb(255, 0, 0);
+        stroke-width: 1.5;
+    }
+
+    .mf_sum {
+        fill: rgb(255, 0, 0);
+    }
+
+    .unknown_bar_mf {
+        fill: rgb(255, 0, 0);
+    }
+
+    .hc_line {
+        fill: none;
+        stroke: black;
+        stroke-width: 1.5;
+        stroke-dasharray: 2 2;
+    }
+
+    .arrow {
+        fill: rgb(193, 193, 193);
+        stroke: rgb(193, 193, 193);
+        stroke-width: 1;
+    }
+
+    .acetate_warning {
+        fill: rgb(255, 137, 0);
+    }
+
+    text {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 10.5pt;
+    }
+
+    .title_geographic_coverage {
+        font-style: italic;
+    }
+
+    .title_id {
+        fill: rgb(124, 124, 124);
+        text-decoration: underline;
+    }
+
+    .grid {
+        opacity: 0.2;
+    }
+
+    line {
+        stroke-dasharray: 7 3;
+        stroke-width: 0.5;
+        opacity: 0.65;
+    }
+
+    .mf_sum_bracket {
+        stroke-dasharray: 0;
+        stroke: red;
+        opacity: 0.5;
+        stroke-width: 3;
+    }
+
+    .connected_line {
+        stroke: black;
+        stroke-width: 0.5;
+        stroke-dasharray: 0;
+    }
+
+    .cover_up_line {
+        stroke: white;
+        stroke-width: 5;
+        stroke-dasharray: 0;
+    }
+
+    div.tooltip {
+        position: fixed;
+        text-align: left;
+        padding: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 10.5pt;
+        background: #c7defc;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+    }
+
+    .stop-left {
+        stop-color: rgb(217, 190, 190);
+        stop-opacity: 0.35;
+        /* Indigo */
+    }
+
+    .stop-middle {
+        stop-color: rgb(217, 190, 190);
+        stop-opacity: 0.2;
+    }
+
+    .stop-right {
+        stop-color: rgb(217, 190, 190);
+        stop-opacity: 0.15;
+    }
+
+    .stop-left_reverse {
+        stop-color: rgb(217, 190, 190);
+        stop-opacity: 0;
+    }
+
+    .stop-middle_reverse {
+        stop-color: rgb(217, 190, 190);
+        stop-opacity: 0.1;
+    }
+
+    .stop-right_reverse {
+        stop-color: rgb(217, 190, 190);
+        stop-opacity: 0.35;
+    }
+
+    .filled {
+        fill: url(#mainGradient);
+    }
+
+    .filled_reverse {
+        fill: url(#reverseGradient);
+    }
+</style>
