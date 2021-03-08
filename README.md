@@ -29,11 +29,11 @@
     <img src="images/PressPicker.png" alt="PressPicker image" width="90%" align="center">
 </p>
          
-Press Picker was created to help select British Library newspaper titles for digitisation. Read more about the context in [this blog post](https://livingwithmachines.ac.uk/press-picker-visualising-formats-and-title-name-changes-in-the-british-librarys-newspaper-holdings/). The tool provides an overview of newspaper holdings over time, their different formats (hardcopy or microfilm), and the relationship between titles connected by name changes. Titles can be selected within the interface and their data exported.  
+Press Picker was created to help select British Library newspaper titles for digitisation. Read more about the context in [this blog post](https://livingwithmachines.ac.uk/press-picker-visualising-formats-and-title-name-changes-in-the-british-librarys-newspaper-holdings/) and see an interactive demo in [this post](https://livingwithmachines.ac.uk/press-picker-code-published/). The tool provides an overview of newspaper holdings over time, their different formats (hardcopy or microfilm), and the relationship between titles connected by name changes. Titles can be selected within the interface and their data exported. We are [sharing the code for reuse](https://livingwithmachines.ac.uk/press-picker-code-published/). 
  
  Press Picker consists of two Python [Jupyter notebooks](https://jupyter.org/). The first (Step 01) filters and processes the newspaper data in preparation for the second notebook (Step 02), which visualises the data. We also do some data pre-processing in another notebook `Preprocess_county_dataset.ipynb`. 
  
- (The visualisation code in Step 02 is written in JavaScript + [D3.js](https://d3js.org/). Using the Press Picker code does not require knowledge of JavaScript or D3.js, but for those interested in how to embed a D3 visualisation in a Python Jupyter notebook, we have written a [blogpost](https://livingwithmachines.ac.uk/d3-javascript-visualisation-in-a-python-jupyter-notebook/)). 
+ (The visualisation code in Step 02 is written in JavaScript + [D3.js](https://d3js.org/). Using the Press Picker code does not require knowledge of JavaScript or D3.js. But for those who want to dig into this, we have published a JavaScript [Observable notebook](https://observablehq.com/@oliviafvane/branching-sparklines-line-graphs). For more information about how we embedded a D3 visualisation in a Python Jupyter notebook, we have written a [blogpost](https://livingwithmachines.ac.uk/d3-javascript-visualisation-in-a-python-jupyter-notebook/)). 
  
 ## How to read Press Picker
 
