@@ -1,4 +1,4 @@
-# Press Picker<br />An interactive visualisation tool for newspaper metadata
+# Press Picker:<br />An interactive visualisation tool for newspaper metadata
 
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Living-with-machines/PressPicker_public/HEAD)
