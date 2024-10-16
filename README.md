@@ -1,20 +1,9 @@
-<div align="center">
-    <br>
-    <p align="center">
-    <h1>Press Picker</h1>
-    </p>
-    <h2>An interactive visualisation tool for newspaper metadata</h2>
-</div>
+# Press Picker<br />An interactive visualisation tool for newspaper metadata
 
-<p align="center">
-    <a href="LICENSE">
-        <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
-    </a>
-    <a href="https://mybinder.org/v2/gh/Living-with-machines/PressPicker_public/HEAD">
-        <img alt="Binder" src="https://mybinder.org/badge_logo.svg">
-    </a>
-    <br/>
-</p>
+![License](https://img.shields.io/badge/License-MIT-yellow)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Living-with-machines/PressPicker_public/HEAD)
+
+## Table of Contents
 
 - [Introduction](#introduction)
 - [How to read Press Picker](#how-to-read-press-picker)
@@ -22,6 +11,8 @@
     - [Title-level data](#title-level-data)
     - [Microfilm and Hardcopy holdings: timeseries](#microfilm-and-hardcopy-holdings-timeseries)
 - [Credits](#credits)
+
+---
 
 ## Introduction
 
