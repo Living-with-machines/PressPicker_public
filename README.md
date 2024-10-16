@@ -1,5 +1,6 @@
 # Press Picker:<br />An interactive visualisation tool for newspaper metadata
 
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.13941106.svg)](https://doi.org/10.5281/zenodo.13941106)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Living-with-machines/PressPicker_public/HEAD)
 
